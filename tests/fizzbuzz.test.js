@@ -7,4 +7,8 @@ describe('Fizz Buzz tests', () => {
     it('Shoulrd return "FIZZ" if number 3 is given', () => {
         expect(fizzbuzz.fizzbuzz(3)).toEqual("FIZZ");
     });
+    it('Shoulrd return "BUZZ" if number 5 is given', () => {
+        expect(fizzbuzz.fizzbuzz(5)).toEqual("BUZZ");
+    });
+
 });
