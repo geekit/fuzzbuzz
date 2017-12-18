@@ -1,12 +1,12 @@
 {
-  "name": "fizzbuzztest",
+  "name": "fizzbuzz",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fizz buzz solution",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "Achraf GOUNANE",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-jest": "^22.0.0",
