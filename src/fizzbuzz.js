@@ -1,5 +1,8 @@
 exports.fizzbuzz = function (number) {
-    if(number === 1){
-        return number.toString();
+    switch (number) {
+        case 1:
+            return number.toString();
+        case 3: return "FIZZ";
+        default: return "";
     }
 };
