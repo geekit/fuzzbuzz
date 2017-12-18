@@ -1,4 +1,4 @@
-exports.fizzbuzz = function (number) {
+exports.fizzBuzz = function (number) {
     const rules = [
         [15, "FizzBuzz"],
         [3, "FIZZ"],
@@ -10,4 +10,12 @@ exports.fizzbuzz = function (number) {
         }
     }
     return number.toString();
+};
+
+exports.fizzBuzzGenerator = function(numbers){
+    var result = "";
+    for(var i = 0;i < numbers.length; i++){
+        result += this.fizzBuzz(numbers[i]);
+    }
+    return result;
 };
